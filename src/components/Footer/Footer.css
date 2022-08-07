@@ -1,0 +1,29 @@
+.footer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footerImagem{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+.footerContato{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerContato p{
+  background-color: #14A7FF;
+  margin: 0;
+  margin-top: 100px;
+  padding: 15px 0 15px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}

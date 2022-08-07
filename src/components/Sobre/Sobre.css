@@ -1,0 +1,32 @@
+.havaianas_tns{
+  margin-top: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #14a7ff;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.havaianas_tns h1{
+  font-size: 40px;
+  font-weight: 900;
+  color: #1a1a1e;
+  max-width: 500px;
+}
+
+.havaianas_tns p{
+  color: #471a48;
+  font-size: 17px;
+  font-weight: 400;
+  max-width: 500px;
+}
+
+.havaianas_tns_button{
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: #000081;
+  color: white;
+  font-weight: 900;
+}

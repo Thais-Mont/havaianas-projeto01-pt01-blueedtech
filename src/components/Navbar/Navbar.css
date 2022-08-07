@@ -1,0 +1,37 @@
+.navbar-dark {
+  background-color: #14A7FF;
+}
+
+.nav{
+  height: 80px;
+  max-width: 1500px;
+  margin: 0 auto;
+
+}
+
+.nav-item a {
+  margin-right: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+div.row{
+  width: 100%;
+}
+
+div.align{
+  display: flex;
+  justify-content: space-around;
+}
+div.align img{
+  cursor: pointer;
+}
+
+.btn {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  margin-right: 10px;
+}

@@ -1,0 +1,20 @@
+.ListaProduto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px 50px;
+  align-items: center; 
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 1220px) {
+  .ListaProduto {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 840px) {
+  .ListaProduto {
+    grid-template-columns: 1fr;
+  }
+}
