@@ -2,6 +2,16 @@
   background-color: #14A7FF;
 }
 
+.navbar-green {
+  background-color: #2B411B;
+}
+
+.navbar-greenligth {
+  background-color: #02C9A4;
+}
+
+
+
 .nav{
   height: 80px;
   max-width: 1500px;
@@ -17,21 +27,22 @@
 }
 
 
-div.row{
+.row{
   width: 100%;
 }
 
-div.align{
+.align{
   display: flex;
   justify-content: space-around;
 }
-div.align img{
+.Linhas__bottons{
   cursor: pointer;
+  margin-right: 20px;
 }
 
-.btn {
+.menu_expand{
+  background-color: #14a7ff;
   color: #fff;
-  background-color: transparent;
-  border: 1px solid #fff;
-  margin-right: 10px;
+  font-weight: 600;
+  font-size: 18px;
 }

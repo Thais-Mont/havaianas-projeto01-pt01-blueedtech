@@ -1,10 +1,16 @@
 import "./Navbar.css";
-import Button from 'react-bootstrap/Button';
+import { useState, useEffect } from 'react';
+import Logo from "../../assets/logo/logo.svg"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import havaianas from "../../assets/images/havaianas.svg"
+import Image from 'react-bootstrap/Image';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
-function NavbarShow({ createProduto }) {
+function NavbarShow({ createProduto, bannerIndex }) {
+
+  const [background, setBackground] = useState('dark');
 
   const closeModal = () => {
 
@@ -13,28 +19,65 @@ function NavbarShow({ createProduto }) {
   const onCreateProduto = () => {
 
   };
-  
+
+  useEffect(()=> { 
+    if(bannerIndex === 2) {
+      setBackground('greenligth');
+    } else if(bannerIndex === 1) {
+      setBackground('green') ;
+    } else {
+      setBackground('dark') ;
+    };
+  },[bannerIndex])
+
 
   return (
     <>
-    <Navbar fixed='top' bg="#14a7ff" variant="dark">
-    <Container>
-      <Navbar.Brand href="#home">  <img
-              src='../../assets/logo/logo.png'
+
+<Navbar key='md'  expand='md' variant= {background}>
+          <Container fluid>
+          <Navbar.Brand href="#home">  <img
+              src= {Logo}
+              width={100}
+              height={100}
               alt='havaianas'
             /> </Navbar.Brand>
-      <Nav className="me-auto">
-        <Nav.Link href="#">Coleções</Nav.Link>
-        <Nav.Link href="#">Produtos</Nav.Link>
-        <Nav.Link href="#">Sobre Nós</Nav.Link>
-      </Nav>
-    </Container>
-    <Nav className="d-flex">
-            <Button variant="outline" onClick={() => createProduto(closeModal, onCreateProduto)}>Novo Produto</Button>
-          </Nav>
-  </Navbar>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-$'md'`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-$'md'`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-$'md'`}
+              className="menu_expand"
+              placement="end"
+            >
+              <Offcanvas.Header closeButton>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="justify-content-start flex-grow-1 pe-2">
+                  <Nav.Link href="#action1">Coleções</Nav.Link>
+                  <Nav.Link href="#action2">Produtos</Nav.Link>
+                  <Nav.Link href="#action2">Sobre Nós</Nav.Link>
+                </Nav>
+                <Nav className="d-flex">
+                    <Image
+                        variant="outline" onClick={() => createProduto(closeModal, onCreateProduto) }
+                        className="Linhas__bottons"
+                        width={80}
+                        height={50}
+                        alt="Adicionar Novo"
+                        src={havaianas}>
+                    </Image>
+                </Nav>
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+        
+
   </>
   );
+  
 }
+
+
 
 export default NavbarShow;

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './index.css';
+import './index.Scss';
 import Home from "./views/Home/Home";
 
 ReactDOM.render(

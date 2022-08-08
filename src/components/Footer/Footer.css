@@ -27,3 +27,15 @@
   color: white;
   font-size: 20px;
 }
+
+.footerContato-dark {
+  background-color: #14A7FF;
+}
+
+.footerContato-green {
+  background-color: #2B411B;
+}
+
+.footerContato-greenligth {
+  background-color: #02C9A4;
+}

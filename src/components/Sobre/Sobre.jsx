@@ -1,12 +1,23 @@
 import "./Sobre.css";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
+import { useState, useEffect } from 'react';
 
-function Sobre() {
+function Sobre({bannerIndex}) {
 
+  const [background, setBackground] = useState('dark');
+  useEffect(()=> { 
+    if(bannerIndex === 2) {
+      setBackground('greenligth');
+    } else if(bannerIndex === 1) {
+      setBackground('green') ;
+    } else {
+      setBackground('dark') ;
+    };
+  },[bannerIndex])
 
   return (
-    <div className="havaianas_tns">
+    <div className={background}>
 
         <div className="havainas_tns_imagem">
             <h1>Havaianas TNS: Pra você andar leve</h1>

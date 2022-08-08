@@ -1,4 +1,4 @@
-.havaianas_tns{
+.dark {
   margin-top: 100px;
   height: 100vh;
   display: flex;
@@ -8,6 +8,40 @@
   width: 100%;
   justify-content: center;
 }
+
+.green {
+  margin-top: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #2B411B;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.greenligth {
+  margin-top: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #02C9A4;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+/* .havaianas_tns{
+  margin-top: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #14a7ff;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+} */
+
 .havaianas_tns h1{
   font-size: 40px;
   font-weight: 900;
@@ -30,3 +64,5 @@
   color: white;
   font-weight: 900;
 }
+
+
