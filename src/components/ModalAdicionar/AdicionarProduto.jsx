@@ -56,46 +56,47 @@ function AdicionarProduto({ closeModal, onCreateProduto }) {
                 <form autoComplete="off">
                     <h2> Cadastrar Produto </h2>
                     <div>
-                        <label className="AdicionaProdutoModal__text" htmlFor="titulo"> Título: </label>
+                        <label className="AdicionaProdutoModal__text" htmlFor="titulo"> </label>
                         <input
                             id="titulo"
-                            placeholder="Chinelo Havaianas"
+                            placeholder="Título:"
                             type="text"
                             value={state.titulo}
                             required
                             onChange={(e) => handleChange(e, "titulo")} />
                     </div>
                     <div>
-                        <label className="AdicionaProdutoModal__text" htmlFor="preco"> Preco: </label>
+                        <label className="AdicionaProdutoModal__text" htmlFor="preco"> </label>
                         <input
                             id="preco"
-                            placeholder="10,00"
+                            placeholder="Preco"
                             type="text"
                             value={state.preco}
                             required
                             onChange={(e) => handleChange(e, "preco")} />
                     </div>
                     <div>
-                        <label className="AdicionaProdutoModal__text" htmlFor="descricao"> Descricao: </label>
+                        <label className="AdicionaProdutoModal__text" htmlFor="descricao"> </label>
                         <input
                             id="descricao"
-                            placeholder="Detalhe o produto"
+                            placeholder="Descricao"
                             type="text"
                             value={state.descricao}
                             required
                             onChange={(e) => handleChange(e, "descricao")} />
                     </div>
                     <div>
-                    <label className="AdicionaProdutoModal__text" htmlFor="foto"> URL Imagem: </label>
+                    <label className="AdicionaProdutoModal__text" htmlFor="foto"> </label>
                         <input
                             className=" AdicionaProdutoModal__foto"
                             id="foto"
-                            placeholder="https://havaianas.com.br/dw/image/v2/BDDJ_PRD/on/demandware.static/-/Sites-havaianas-master/default/dw955a1239/product-images/4123500_9446_SANDALIA-HAVAIANAS-DISNEY-STYLISH_A.png?sw=680&sh=680"
+                            placeholder="URL da Imagem"
                             type="text"
                             value={state.foto}
                             required
                             onChange={(e) => handleChange(e, "foto")} />
                     </div>
+
 
                     <button
                         className="AdicionaProdutoModal__enviar"

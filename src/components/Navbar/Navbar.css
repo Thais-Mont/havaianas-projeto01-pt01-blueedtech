@@ -21,7 +21,12 @@
   padding-right: 0;
 }
 
-
+.menu_expand green{
+  background-color: #14a7ff;
+  color: #000 !important;
+  font-weight: 600;
+  font-size: 18px;
+}
 
 
 
@@ -34,7 +39,7 @@
 
 .nav-item a {
   margin-right: 10px;
-  color: white;
+  color: #000;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -53,9 +58,3 @@
   margin-right: 20px;
 }
 
-.menu_expand{
-  background-color: #14a7ff;
-  color: #fff;
-  font-weight: 600;
-  font-size: 18px;
-}
