@@ -3,7 +3,7 @@ import React, {  useEffect } from 'react';
 import Modal from "components/Modal/Modal";
 
 function DetalhesModal({ produto, closeModal }) {
-  useEffect(() => { console.log('ola');   document.title = `${produto.titulo}`;  });
+  useEffect(() => {document.title = `${produto.titulo}`;  });
   return (
     <Modal closeModal={closeModal}>
       <div className="detalhesModal">

@@ -1,7 +1,7 @@
  import {useState, useEffect} from 'react';
 import ColecaoLista from "components/ColecaoLista/ColecaoLista";
 import Navbar from 'components/Navbar/Navbar';
-import Linhas from 'components/Linhas/Linhas';
+
 import Sobre from 'components/Sobre/Sobre';
 import AdicionaProduto from "components/ModalAdicionar/AdicionarProduto";
 import { produtos_default } from "mocks/colecao01.js";
@@ -49,7 +49,6 @@ useEffect(()=> {
     
       <Navbar createProduto={() => setCanShowAdicionaProduto(true)} bannerIndex={bannerIndex}/>
       <Banner changeBannerHandle = {changeBannerHandle} />
-      <Linhas />
       <div className="Home__container">
         
         <ColecaoLista produtos={produtos} />

@@ -1,7 +1,7 @@
 .Modal {
-  padding: 30px 80px 20px 20px;
-  min-width: 300px;
-  min-height: 300px;
+  text-align: center;
+  min-width: 380px;
+  min-height: 380px;
   max-width: 700px;
   max-height: 650px;
   background: #fff;
@@ -9,7 +9,10 @@
   border-radius: 10px;
   box-sizing: border-box;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
-  background-color: #9aa4a8e8;
+  background-color: #e2e8df;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Modal__close {
@@ -20,8 +23,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   cursor: pointer;
   padding: 5px;
   border-radius: 50%;
@@ -35,13 +38,19 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.Modal__close p{
+  position: absolute;
+  bottom: -5px;
+  margin: 0;
+}
+
 .Modal__body {
   border-radius: 10px;
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 @media (max-width: 400px) {

@@ -1,56 +1,41 @@
-.dark {
-  margin-top: 100px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  background-color: #14a7ff;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-}
-
-.green {
-  margin-top: 100px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  background-color: #2B411B;
-  color: #fff;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-}
-
+.dark,
+.green,
 .greenligth {
   margin-top: 100px;
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #02C9A4;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  flex-direction: row;
 }
 
-/* .havaianas_tns{
-  margin-top: 100px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
+.dark {
   background-color: #14a7ff;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-} */
+}
 
-.havaianas_tns h1{
+.green {
+  background-color: #2B411B;
+  color: #fff;
+}
+
+.greenligth {
+  background-color: #02C9A4;
+}
+
+.havaianas_tns_texto {
+  text-align: center;
+}
+
+.havaianas_tns_texto h1{
   font-size: 40px;
   font-weight: 900;
   color: #1a1a1e;
   max-width: 500px;
 }
 
-.havaianas_tns p{
+.havaianas_tns_texto p{
   color: #471a48;
   font-size: 17px;
   font-weight: 400;
@@ -65,5 +50,14 @@
   color: white;
   font-weight: 900;
 }
+  .havaianas_tns_imagem{
+    width: auto;
+  }
 
+@media (max-width: 768px) {
 
+  .havaianas_tns_imagem{
+    width: 85%;
+  }
+
+}

@@ -1,5 +1,5 @@
 .AdicionaProduto {
-  font-family: "Exo";
+  font-family: 'Exo';
   border-radius: 10px;
   max-height: 350px;
   box-sizing: border-box;
@@ -10,18 +10,16 @@
   margin-right: -45px;
 }
 
-.AdicionaProduto 
-  form div {
+.AdicionaProduto form div {
   display: flex;
   margin: 15px 0;
 }
 
-.AdicionaProduto 
-  form {
+.AdicionaProduto form {
   width: 100%;
 }
 
-.AdicionaProduto  div input {
+.AdicionaProduto div input {
   border: none;
   background: rgba(255, 255, 255, 0.3);
   width: 100%;
@@ -63,4 +61,30 @@
 
 .AdicionaProduto__enviar:disabled {
   background-color: gray;
+}
+
+.AdicionaProdutoModal input {
+  border-radius: 20px;
+  border: none;
+  padding: 4px 10px;
+  width: 100%;
+}
+
+.AdicionaProdutoModal button{
+  border-radius: 20px;
+  border: navajowhite;
+  background-color: cadetblue;
+  color: white;
+  padding: 4px 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.AdicionaProdutoModal div {
+  margin-bottom: 20px;
+}
+.AdicionaProdutoModal h2 {
+  margin-bottom: 50px;
+  color: cadetblue;
+  font-weight: 900;
 }
