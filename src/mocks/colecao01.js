@@ -1,4 +1,4 @@
-export const produtos = [
+export const produtos_default = [
   {
     titulo: "Chinelo Havaianas Disney Margarida",
     descricao:
