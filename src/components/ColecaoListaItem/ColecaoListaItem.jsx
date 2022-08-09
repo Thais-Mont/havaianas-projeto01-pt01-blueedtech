@@ -14,7 +14,7 @@ function ListaProdutoItem({
     <Container>
     <Row>
     <Col md={4} xs={12}>
-    {/* <div className="ListaProdutoItem" onClick={() => {console.log('ola'); clickItem(produto.id)}}> */}
+
     <div className="ListaProdutoItem" onClick={() => clickItem(produto)}>
       <div>
        
@@ -32,6 +32,6 @@ function ListaProdutoItem({
     </Col>
     </Row>
     </Container>
-  );
+  )
 }
-export default ListaProdutoItem;
+export default ListaProdutoItem

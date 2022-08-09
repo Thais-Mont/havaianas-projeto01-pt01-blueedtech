@@ -14,13 +14,6 @@
   }
 
   
-  @media (max-width: 400px) {
-    .ListaProdutoItem {
-      width: 210px;
-      height: 180px;
-    }
-  }
-  
   .row {
     display: flex;
     align-items: center;

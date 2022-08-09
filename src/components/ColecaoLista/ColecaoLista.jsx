@@ -41,7 +41,7 @@ const [produtoSelecionado, setProdutoSelecionado] = useState([]);
           clickItem={openModalHandle}
         />
       ))}
-      ;
+      
       {produtoModal && (
         <DetalhesModal
           produto={produtoModal}
