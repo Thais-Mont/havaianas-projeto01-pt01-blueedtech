@@ -1,4 +1,4 @@
-# Projeto Remake Havainas - Frontend NodeJS com ReactJS
+# Projeto Remake Havaianas - Frontend NodeJS com ReactJS
 
 ### Deploy
 Deploy com Heroku: https://projetohavaianas-blueedtech.herokuapp.com/
@@ -35,8 +35,7 @@ abrir servidor local http://localhost:3000
 ```
 
 
-### Imagens
+### Aplicação
 
-https://loom.com/share/b468330c7a5d4c72b700334918a9e755
-
+![gif_projeto_havaianas](https://user-images.githubusercontent.com/78213513/183794021-527662a0-c21f-4023-b91c-033f854dfc2b.gif)
 
