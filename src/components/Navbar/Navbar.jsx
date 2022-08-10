@@ -27,7 +27,7 @@ function NavbarShow({ createProduto, bannerIndex }) {
 
   return (
     <>
-      <Navbar key="md" fixed="top" expand="md" variant={background}>
+      <Navbar key="md" expand="md" variant={background}>
         <Container fluid>
           <Navbar.Brand href="#banner">
             {' '}
