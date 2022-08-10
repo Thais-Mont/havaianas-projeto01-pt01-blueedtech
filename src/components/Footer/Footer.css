@@ -1,55 +1,64 @@
-.footer{
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
+.footerContato-dark{
+  background-color: #14A7FF;
+  color: white;
+  font-size: 20px;
+}
+
+.footerContato-green{
+  background-color: #2B411B;
+  color: white;
+  font-size: 20px;
+}
+
+.footerContato-greenligth{
+  background-color: #02C9A4;
+  color: white;
+  font-size: 20px;
+}
+
+.icone{
+  width: 30px;
+}
+
+.footer__elementos{
+  flex-direction: column;
   align-items: center;
-  text-align: center;
+
 }
 
-.footerImagem{
-  width: 70%;
-  margin-left: 15%;
-  margin-top: 20px;
+.redes{
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+  background-color: transparent;
 }
 
-.footerContato{
+.redes_caio,
+.redes_thais{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-.footerContato p{
-  /* background-color: #14A7FF; */
-  margin: 0;
-  padding: 15px 0 15px;
-  text-align: center;
-  color: white;
-  font-size: 20px;
+.icons{
+  display: flex;
+  align-items:center;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
-.footerContato-dark p{
-  background-color: #14A7FF;
-  margin: 0;
-  padding: 15px 0 15px;
-  text-align: center;
-  color: white;
-  font-size: 20px;
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.footerContato-green p{
-  background-color: #2B411B;
-  margin: 0;
-  padding: 15px 0 15px;
-  text-align: center;
-  color: white;
-  font-size: 20px;
+a:hover {
+  color: rgb(69, 65, 65);
 }
 
-.footerContato-greenligth p{
-  background-color: #02C9A4;
-  margin: 0;
-  padding: 15px 0 15px;
+
+.copy{
   text-align: center;
-  color: white;
-  font-size: 20px;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

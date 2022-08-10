@@ -6,6 +6,10 @@
   margin-bottom: 20px;
 }
 
+.col-md-4 {
+  flex: 0 0 auto !important;
+  width: auto !important;
+}
 
 @media (max-width: 1220px) {
   .ListaProduto {

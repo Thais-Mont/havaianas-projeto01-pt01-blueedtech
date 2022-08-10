@@ -2,5 +2,7 @@
   "compilerOptions": {
     "baseUrl": "src"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true
 }

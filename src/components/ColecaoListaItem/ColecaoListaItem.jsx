@@ -1,6 +1,5 @@
 import "./ColecaoListaItem.css";
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function ListaProdutoItem({
@@ -12,12 +11,7 @@ function ListaProdutoItem({
 
   return (
     <Container>
-    <Row>
-    <Col md={4} xs={12}>
-
-    <div className="ListaProdutoItem" onClick={() => clickItem(produto)}>
-      <div>
-       
+    <Col md={4} xs={12} className="ListaProdutoItem" onClick={() => clickItem(produto)}>
         <img
           className="ListaProdutoItem__foto"
           src={produto.foto}
@@ -25,12 +19,9 @@ function ListaProdutoItem({
         />
          <div className="ListaProdutoItem__titulo">{produto.titulo}</div>
         <div className="ListaProdutoItem__preco">
-          {produto.preco.toFixed(2)}
+          R$ {produto.preco.toFixed(2)}
         </div>
-      </div>
-    </div>
     </Col>
-    </Row>
     </Container>
   )
 }

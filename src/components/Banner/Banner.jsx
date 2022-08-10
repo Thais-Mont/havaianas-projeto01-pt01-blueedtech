@@ -17,7 +17,7 @@ function Banner( {changeBannerHandle} ) {
   };
 
   return (
-    <Carousel className="banner" activeIndex={index} onSelect={handleSelect}>
+    <Carousel id="banner" className="banner" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <Image
           className="d-block w-100"
@@ -44,25 +44,3 @@ function Banner( {changeBannerHandle} ) {
 }
 
 export default Banner;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function Banner() {
-//   return (
-//     <Image className="Banner"fluid src={ banner } width="100%" alt="banner"/>
-//   );
-// }
-
-// export default Banner;

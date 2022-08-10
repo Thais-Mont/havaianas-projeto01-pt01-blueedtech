@@ -1,3 +1,4 @@
+
 .navbar-dark {
   background-color: #14A7FF;
 }
@@ -21,9 +22,9 @@
   padding-right: 0;
 }
 
-.menu_expand green{
-  background-color: #14a7ff;
-  color: #000 !important;
+.menu_expand{
+  background: #14a7ff !important;
+  color: #fff;
   font-weight: 600;
   font-size: 18px;
 }
@@ -34,8 +35,9 @@
   height: 80px;
   max-width: 1500px;
   margin: 0 auto;
-
 }
+
+
 
 .nav-item a {
   margin-right: 10px;

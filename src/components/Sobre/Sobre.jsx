@@ -17,12 +17,12 @@ function Sobre({bannerIndex}) {
   },[bannerIndex])
 
   return (
-    <div className={background}>
+    <div className={background} id="sobre">
 
         <div className="havaianas_tns_texto">
             <h1>Havaianas TNS: Pra você andar leve</h1>
             <p>Conheça a coleção de tênis criada para trazer LEVEZA para sua vida e, claro, praticidade.</p>
-            <Button href="https://havaianas.com.br/" className="havaianas_tns_button" size="lg">Saiba Mais!</Button>
+            <Button href="https://havaianas.com.br/" target="_blank" className="havaianas_tns_button" size="lg">Saiba Mais!</Button>
 
         </div>
 
