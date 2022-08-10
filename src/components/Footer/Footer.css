@@ -60,3 +60,16 @@ a:hover {
   text-align: center;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+
+  .redes{
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+
+  .redes_caio,
+.redes_thais{
+  justify-content:center;
+}
+}
