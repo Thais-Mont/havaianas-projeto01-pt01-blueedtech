@@ -37,6 +37,6 @@ abrir servidor local http://localhost:3000
 
 ### Imagens
 
-![Capturar](https://share.vidyard.com/watch/FNyuqAFBcWEqCUUotyCXUK?)
+![Capturar](https://loom.com/share/b468330c7a5d4c72b700334918a9e755)
 
 
